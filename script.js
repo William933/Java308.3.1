@@ -16,8 +16,9 @@ for (let i = 5; i <= 100; i++){
 
 let ned = "FizzBuzz"
 for (let i = 5; i <= 100; i++){
-    if (i % 5 % 3 === 0)
+    if ([i] % 5 === 0 ||  "3" === 0)
     console.log(ned)
-else (i % 5 % 3 !==0)
+else ( i % 5 ||  3 !==0)
 console.log(i)
 }
+
